@@ -1,0 +1,39 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "greeter",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BadAdviceIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me some advice",
+                        "give me some bad advice",
+                        "i need advice",
+                        "i need bad advice",
+                        "tell me what to do",
+                        "what should i do",
+                        "help me"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

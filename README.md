@@ -1,1 +1,1 @@
-"# bad-advice-alexa-skill" 
+# bad-advice-alexa-skill
