@@ -20,72 +20,33 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-BAD_ADVICE_LIST = """You should sleep on that French braid!
-Just hide it in your backpack — they can’t search your person.
-You should just drive to Toronto; it’s so much easier than flying.
-You have to join this club called Columbia House. They mail you any 12 CDs for only 99¢!
-How can you tell if you’re really allergic to it unless you eat some more?
-Try this! It’s blue.
-Take the train — it’s such a romantic way to travel.
-Just go to the dental school, it’s much cheaper and they’ve learned most of the important stuff already.
-You should dye your hair blond.
-You should dye your hair black.
-You should grow your hair really long, like past your boobs.
-You should shave your head.
-You should get a body wave!
-You should always wear hats.
-No, it’s definitely the left side for appendicitis.
-You’re fine! Just chug a glass of water and let’s go to the next bar.
-A college essay is supposed to be funny.
-You should take the overnight bus — its 11 hours but you’ll sleep practically the whole time.
-It’s actually easier to learn to drive on a standard.
-You should just sing that oral report.
-You don’t actually have to serve jury duty unless it’s for the county in which you were born.
-Feed a fever, drown a cold.
-The best cure for poison ivy? Bleach.
-Just glue it back together. Your parents will never notice.
-No, I’m pretty sure you can’t study for AP exams.
-You don’t really need any equipment for camping.
-It’s fine. Dogs can only give rabies to other dogs, not humans.
-Just get really drunk before you get on the plane.
-A vibrant yellow is perfect for your bedroom because it’s so cheerful.
-You can make it — gun it.
-You can’t get scarlet fever twice.
-You should climb in her window and leave a note on her pillow. It’s so romantic.
-Don’t bother bringing a map — we can just ask someone.
-It’s not a big deal, jump in. No one ever remembers this, but people just instinctually know how to swim.
-Times Square is the only place to be on New Year’s Eve.
-You should go to the Village Halloween parade! It’s awesome.
-You’ve never been to the St. Patrick’s Day parade? We’re going.
-The Zodiac killer is just an urban legend.
-Oh no, bread can’t expire.
-Permanent markers aren’t actually permanent.
-Shake it off. It doesn’t look broken and a sprain actually hurts worse than a break.
-Just major in whatever you’re most interested in.
-Always, always, keep batteries in the freezer.
-You can’t get scarlet fever three times.
-Don’t rehearse, it’s more spontaneous.
-You can’t get motion sickness on the Gravitron because it’s going in a circle.
-It he tries to mug you just play dead. Or run away in a zigzag pattern.
-Why don’t you write both papers at once? It’ll be faster.
-Babysitting is a great way to make some extra money, plus kids are so cute.
-Just rub a cold washcloth on your sore throat—it’s soothing.
-Scoliosis is an old wives’ tale.
-“Liquor before beer unless it’s clear.” So, like, just get something gin-based.
-Don’t smell it; just eat it really fast.
-That’s only in the movies. No one ever actually gets caught pulling the fire alarm.
-I think you should go with the Fung Wah bus; it’s only $15 a ticket.
-For the last time, you can keep holding it. Sparklers go out on their own.
-There is no “too early” when it comes to “I love you.”
-Baking soda and baking powder are the same thing; this cake is going to be delicious.
-Owls are great pets!
-Buy it on Canal Street. They never raid those Chinatown stands anymore.
-Don’t take anymore than two shots before the presentation, but definitely take at least one.
-Tupperware can go in the oven as long as it’s below 375?
-Go running later, when it’s dark — that way the park will be less crowded.
-A great first date is going to a comedy club, or get one of those tandem bicycles. Or both!
-You don’t need an electrician for that — just do it yourself.
-Grapes have no nutritional value.""".split('\n')
+BAD_ADVICE_LIST = """Don't take your trash out for two weeks. It adds a really nice natural musk.
+It's a great time to invest in typewriters.
+Don't listen to your parents, they don't know anything.
+If it smells bad, it probably tastes good.
+The cheapest option is always the best.
+If you don't like your job, just quit. You can figure out the rest later.
+If your wife asks you if she looks good in something, make sure you are completely honest.
+Yellow lights mean go as fast as you can.
+If someone challenges you to a hot pepper eating contest, always say yes.
+Sleep is overrated.
+You should major in music in college.
+Dish soap works great as substitute for dishwasher detergent.
+If you're angry at someone, you should send them an email immediately before you forget.
+When your car's gas light goes on, don't worry, you still have at least 100 miles before you run out.
+The best way to help a cut heal is to rub salt in it.
+If the IRS calls you demanding money, send it to them without question. There's no way it's a scam.
+Orange juice tastes especially good right after brushing your teeth.
+If you are having trouble falling asleep, try drinking a cup of coffee.
+All cars come with a secret autopilot mode. You can activate it by taking your hands off the wheel and closing your eyes.
+The best way to invest your money is invest in a pyramid scheme.
+Try seeing how long you can go without peeing. It will impress your friends.
+If you're applying for a job, make sure to remove all privacy settings on your social media.
+If you spill wine on your carpet, the best way to prevent a stain is dry it out with a hair dryer. 
+If you get pulled over for speeding, try giving the officer a bribe. They'll think it's funny and let you go without a ticket.
+Everyone loves hearing about your bowel movements. 
+If you really want to impress a girl, sneak up behind her and say <amazon:effect name="whispered">I know where you sleep.</amazon:effect>
+If a girl says no, it doesn't matter if you plan on becoming the president or a supreme court justice.""".split('\n')
 
 def select_random_bad_advice(bad_advice_list):
     return random.choice(bad_advice_list)
